@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="3dp"
+    >
+
+    <TextView
+        android:id="@+id/date_sender_chat_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/small_tittle_dark"
+        android:text="10:45"
+        android:layout_marginStart="33dp"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/triangle_view"
+        android:rotation="-90"
+        android:scaleY="2.5"
+        android:layout_marginTop="27dp"
+        />
+
+    <TextView
+        android:id="@+id/chat_admin_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round"
+        android:maxWidth="200dp"
+        android:minLines="1"
+        android:padding="10dp"
+        android:text="gdfgdfg"
+        android:textAppearance="@style/normal_tittle_dark" />
+
+</RelativeLayout>

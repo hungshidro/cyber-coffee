@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="default_text">Default</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="chatting">Soạn tin ...</string>
+    <string name="phoneNumber">Số điện thoại</string>
+    <string name="female">Nữ</string>
+    <string name="male">Nam</string>
+    <string name="register">Đăng kí</string>
+    <string name="history_reservation">Chỗ đã đặt</string>
+    <string name="history_order">Món đã đặt</string>
+    <string name="sign_out">Đăng xuất</string>
+    <string name="gift">Ưu đãi</string>
+    <string name="qr">QR</string>
+    <string name="reservation">Đặt lịch</string>
+    <string name="order">Đặt món</string>
+    <string name="place_maker">Vị trí</string>
+    <string name="reservation_infor">Thông tin đặt chỗ</string>
+    <string name="reservation_detail_tittle">Vị trí: \nLoại máy: \nLoại phòng: \nTrạng thái: \nHạn</string>
+    <string name="reservation_extra">Thông tin khác</string>
+    <string name="reservation_extra_tittle">Thời gian(phút): \n\nPhí</string>
+    <string name="cancel">Hủy</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="reservation_history">Danh sách chỗ đã đặt</string>
+    <string name="extend">Gia hạn</string>
+    <string name="back">Trở về</string>
+    <string name="reservation_history_tittle">Vị trí: \nLoại máy: \nLoại phòng: \nTrạng thái: \nHạn: \nPhí</string>
+    <string-array name="grade">
+        <item>Tầng 1</item>
+        <item>Tầng 2</item>
+        <item>Tầng 3</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chat_list">Danh sách chat</string>
+    <string name="manage">Trang quản lí</string>
+</resources>

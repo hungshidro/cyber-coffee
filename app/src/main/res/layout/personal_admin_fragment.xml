@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/main_background">
+
+    <RelativeLayout
+        android:id="@+id/top_layout_personal"
+        android:background="@color/background_blue"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="14dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:paddingHorizontal="5dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/avatar"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@color/text_color_light"
+                android:src="@drawable/ic_baseline_person_24"
+                app:shapeAppearanceOverlay="@style/circle_image" />
+
+            <LinearLayout
+                android:id="@+id/name_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:paddingHorizontal="10dp"
+                android:layout_toRightOf="@id/avatar"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/tv_name_personal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Admin"
+                    android:maxWidth="150dp"
+                    android:maxLines="1"
+                    android:textAppearance="@style/normal_tittle_light_bold" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="14dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/top_layout_personal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_sign_out"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/sign_out"
+            android:background="@drawable/danger_button"
+            android:textAppearance="@style/small_tittle_light"
+            android:stateListAnimator="@drawable/press_animation"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

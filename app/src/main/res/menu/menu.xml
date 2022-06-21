@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/tab_home"
+        android:title="Home"
+        android:icon="@drawable/icons8_home_page_96"/>
+    <item android:id="@+id/tab_rank"
+        android:title="Rank"
+        android:icon="@drawable/icons8_crown_80"/>
+    <item android:id="@+id/tab_gift"
+        android:title="Chat"
+        android:icon="@drawable/icons8_messages_50"/>
+    <item android:id="@+id/tab_personal"
+        android:title="Personal"
+        android:icon="@drawable/icons8_person_64"/>
+</menu>

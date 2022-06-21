@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:orientation="horizontal"
+    android:background="@drawable/layout_component"
+    android:layout_margin="2dp">
+
+    <View
+        android:id="@+id/note_view"
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/note_view"
+        />
+
+    <TextView
+        android:id="@+id/tv_seat"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="3-04"
+        android:textAppearance="@style/big_tittle_dark_bold"
+        android:gravity="center"
+        android:background="@drawable/border"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/status"
+            >
+            <TextView
+                android:id="@+id/tv_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="con trong"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="10dp"
+                android:textColor="@color/lime"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/reservation_button"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity=""
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/disable_bt"
+                android:enabled="false"
+                android:paddingHorizontal="10dp"
+                android:text="@string/reservation"
+                android:textAppearance="@style/small_tittle_dark"
+                android:stateListAnimator="@drawable/press_animation"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_info_seat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="7dp"
+            android:lineSpacingExtra="2dp"
+            android:lines="3"
+            android:text="Loai may: mgfdg \nLoai phong: fdsf \nTinh trang:"
+            android:textAppearance="@style/small_tittle_dark"
+            android:background="@drawable/infor_status"
+            />
+    </LinearLayout>
+</LinearLayout>

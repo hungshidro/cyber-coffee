@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="circle_image">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="small_tittle_light">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_color_light</item>
+    </style>
+    <style name="small_tittle_light_bold">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_color_light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="small_tittle_dark">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+    </style>
+    <style name="small_tittle_dark_bold">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="normal_tittle_light">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_color_light</item>
+    </style>
+    <style name="normal_tittle_dark">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+    </style>
+    <style name="action_tittle_dark">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+    </style>
+    <style name="normal_tittle_light_bold">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_color_light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="normal_tittle_dark_bold">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="big_tittle_light">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/text_color_light</item>
+    </style>
+    <style name="big_tittle_dark">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+    </style>
+    <style name="big_tittle_dark_bold">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

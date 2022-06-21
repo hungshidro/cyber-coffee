@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ReservationActivity"
+    android:background="@color/main_background">
+
+    <RelativeLayout
+        android:id="@+id/top_reservation_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_blue">
+
+        <ImageView
+            android:id="@+id/return_reservation_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/reservation_infor"
+            android:textAppearance="@style/normal_tittle_light_bold"
+            android:layout_marginVertical="14dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/reservation_infor_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_component"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_below="@id/top_reservation_layout"
+        android:paddingVertical="7dp"
+        android:paddingHorizontal="10dp">
+
+        <TextView
+            android:id="@+id/reservation_infor_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reservation_infor"
+            android:textAppearance="@style/small_tittle_dark_bold"
+            android:layout_centerHorizontal="true"/>
+
+
+        <TextView
+            android:id="@+id/reservation_detail_tittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reservation_infor_text"
+            android:layout_marginTop="20dp"
+            android:lineSpacingExtra="3dp"
+            android:lines="7"
+            android:minWidth="120dp"
+            android:paddingVertical="5dp"
+            android:paddingStart="10dp"
+            android:text="@string/reservation_history_tittle"
+            android:textAppearance="@style/small_tittle_dark_bold" />
+
+        <TextView
+            android:id="@+id/reservation_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reservation_infor_text"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/reservation_detail_tittle"
+            android:lineSpacingExtra="3dp"
+            android:lines="4"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:text="1-03 \nVip \nVip \nTot"
+            android:textAppearance="@style/small_tittle_dark" />
+
+        <TextView
+            android:id="@+id/time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reservation_detail"
+            android:layout_marginStart="20dp"
+            android:layout_toRightOf="@id/reservation_detail_tittle"
+            android:paddingStart="10dp"
+            android:lines="2"
+            android:textAppearance="@style/small_tittle_dark" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/reservation_extra_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_component"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_below="@id/reservation_infor_layout"
+        android:paddingVertical="7dp"
+        android:paddingHorizontal="10dp">
+
+        <TextView
+            android:id="@+id/reservation_extra_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/extend"
+            android:textAppearance="@style/small_tittle_dark_bold" />
+
+        <TextView
+            android:id="@+id/reservation_extra_tittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reservation_extra_text"
+            android:layout_marginTop="19dp"
+            android:lineSpacingExtra="3dp"
+            android:lines="3"
+            android:minWidth="120dp"
+            android:paddingVertical="5dp"
+            android:paddingStart="10dp"
+            android:text="@string/reservation_extra_tittle"
+            android:textAppearance="@style/small_tittle_dark_bold" />
+
+        <EditText
+            android:id="@+id/edt_time_reservation"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@id/reservation_extra_text"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@id/reservation_extra_tittle"
+            android:hint="Thời gian muốn đặt"
+            android:inputType="number"
+            android:paddingHorizontal="5dp"
+            android:textAppearance="@style/small_tittle_dark" />
+
+        <TextView
+            android:id="@+id/note_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/small_tittle_light"
+            android:textColor="@color/danger_color"
+            android:layout_toRightOf="@id/edt_time_reservation"
+            android:layout_alignTop="@id/edt_time_reservation"
+            android:text="Tối thiểu 60"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:id="@+id/fee_reservation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edt_time_reservation"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@id/reservation_extra_tittle"
+            android:text="10000"
+            android:textAppearance="@style/small_tittle_dark" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_below="@id/reservation_extra_layout"
+        android:layout_marginTop="20dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cancel_button_reservation"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/back"
+            android:textAppearance="@style/small_tittle_dark"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="40dp"
+            android:background="@drawable/disable_bt"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/confirm_button_reservation"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/extend"
+            android:layout_marginHorizontal="40dp"
+            android:textAppearance="@style/small_tittle_dark"
+            android:background="@drawable/enable_bt"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

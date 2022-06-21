@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/background_rank.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/border.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/chat_edittext.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/danger_button.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/disable_bt.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/enable_bt.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/gradient.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/ic_baseline_local_police_24.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/infor_status.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/layout_component.xml" value="0.152" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/note_view.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/note_view_disable.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/note_view_enable.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/press_animation.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/press_bt.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/progress_bar.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/register_edt.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/round.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/round_bt.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/status.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/taskbar_background.xml" value="0.152" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/test.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/triangle_view.xml" value="0.211" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_admin.xml" value="0.2595108695652174" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_admin_chat.xml" value="0.2595108695652174" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_confirm_reservation.xml" value="0.4" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_detail_reservation_history.xml" value="0.4" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_register.xml" value="0.2595108695652174" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_reservation.xml" value="0.2595108695652174" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_reservation_history.xml" value="0.2595108695652174" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/chat_admin_fragment.xml" value="0.2595108695652174" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/chat_fragment.xml" value="0.4" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/chat_item.xml" value="0.2595108695652174" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/chat_item_admin.xml" value="0.19427083333333334" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/chat_item_user.xml" value="0.2595108695652174" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/fragment_home_admin.xml" value="0.2595108695652174" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/home_fragment.xml" value="0.4" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/item_action.xml" value="0.2595108695652174" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/item_chat_admin.xml" value="0.2595108695652174" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/item_reservation.xml" value="0.264" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/item_reservation_history.xml" value="0.4" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/personal_admin_fragment.xml" value="0.2595108695652174" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/personal_fragment.xml" value="0.4" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/rank_fragment.xml" value="0.4" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/menu/menu.xml" value="0.275" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/menu/menu_admin.xml" value="0.275" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/MyApplication3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.211" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
